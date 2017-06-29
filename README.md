@@ -7,12 +7,13 @@ A sketch for an Arduino Nano (or similar) device to receive and transmit infrare
 The project sketch has no 3rd-party dependencies, and may be used to program an Arduino device in the usual method using the Arduino IDE.
 
 For infrared communication, an IR receiver module and an IR LED must be connected to the a programmed Arduino device. The circuit used in development used two 5mm IR LEDs in series and an active-low, 37.9kHz carrier frequency IR receiver module. The circuit was connected as follows:  
-Arduino Pin Number | Pin Label | IR LEDs | IR Receiver
---- | --- | --- | ---
-2 | D2 | - | Signal
-3 | D3 | Positive | -
-- | GND | Negative | Negative
-- | +5V | - | Vdd
+
+| Arduino Pin Number | Pin Label | IR LEDs | IR Receiver |  
+| --- | --- | --- | --- |  
+| 2 | D2 | - | Signal |  
+| 3 | D3 | Positive | - |  
+| - | GND | Negative | Negative |  
+| - | +5V | - | Vdd |  
 
 The corresponding pin numbers are `#define`d at the top of the project sketch and may be altered as required.
 
@@ -23,7 +24,7 @@ An Arduino device programmed with this project sketch waits for serial communica
 * `R` - Record Pronto from IR receiver\*.
 * `S` - Send currently stored Pronto code.
 * `I` - Print currently stored Pronto Hex code over serial.
-* `\[Pronto Hex String\]` - Store the Pronto code given as a string of hexadecimal numbers\*.
+* `[Pronto Hex String]` - Store the Pronto code given as a string of hexadecimal numbers\*.
 
 \* These commands overwrite the currently stored Pronto code.
 
