@@ -3,7 +3,7 @@
 A sketch for an Arduino Nano (or similar) device to receive and transmit infrared codes in the Pronto Hex format. Able to record and transmit remote control commands from a wide range of devices.
 
 ## Device
-<img src="images/device.jpg" width="250" title="Assembled universal remote">
+<img src="images/remote.jpg" width="250" title="Assembled universal remote">
 
 ## Getting Started
 
