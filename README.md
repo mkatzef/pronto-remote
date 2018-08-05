@@ -2,6 +2,9 @@
 
 A sketch for an Arduino Nano (or similar) device to receive and transmit infrared codes in the Pronto Hex format. Able to record and transmit remote control commands from a wide range of devices.
 
+## Device
+<img src="images/device.jpg" width="250" title="Assembled universal remote">
+
 ## Getting Started
 
 The project sketch has no 3rd-party dependencies, and may be used to program an Arduino device in the usual method using the Arduino IDE.
